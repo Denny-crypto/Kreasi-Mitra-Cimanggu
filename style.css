@@ -76,7 +76,8 @@ body{margin:0;font-family:Roboto, Montserrat, system-ui, -apple-system, "Segoe U
 
 /* Footer */
 .site-footer{background:#0d1012;color:#fff;padding:28px 20px}
-.footer-inner{display:flex;justify-content:space-between;gap:20px}
+.footer-inner-content{display:flex;justify-content:space-between;gap:20px;max-width:var(--container);margin:0 auto 20px auto;padding:0 20px}
+.footer-map{padding:0 20px;margin-bottom:20px;}
 .copyright{text-align:center;padding:14px 0;background:#071018;color:#8b98a3}
 
 /* Responsive */
